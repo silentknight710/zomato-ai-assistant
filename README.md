@@ -82,24 +82,24 @@ Important: Ensure .env is listed in your .gitignore file to avoid committing sec
 
 **6. Prepare Data:**
 
-Run your web scraper (src/scraper.py - Note: you need to implement the scraping logic first as per the assignment) or manually place your scraped data file.
+* Run your web scraper (src/scraper.py - Note: you need to implement the scraping logic first as per the assignment) or manually place your scraped data file.
 
-Ensure the scraped data is saved as restaurants.json inside the data/ folder. The format should match the structure expected by src/rag_pipeline.py (the detailed format with menu items).
+* Ensure the scraped data is saved as restaurants.json inside the data/ folder. The format should match the structure expected by src/rag_pipeline.py (the detailed format with menu items).
 
 **7. Pinecone Index:**
 
 The script (src/pinecone_utils.py) will attempt to create the Pinecone index specified in src/config.py (default: zomato-restaurants) if it doesn't exist, using the serverless specification defined in the config. Ensure your Pinecone account/API key has permissions to do this.
 
-Usage
-Make sure your virtual environment is activated (if used) and the .env file is configured.
+**Usage**
+* Make sure your virtual environment is activated (if used) and the .env file is configured.
 
-Navigate to the project's root directory in your terminal.
+* Navigate to the project's root directory in your terminal.
 
-Run the main application script:
+* Run the main application script:
 
 python src/main.py
 
-The script will initialize models and Pinecone. If the Pinecone index is empty, it will automatically load, process, embed, and upload the data from data/restaurants.json (this may take some time). Note: If you update data/restaurants.json, you need to manually trigger a re-population by setting FORCE_REPOPULATE = True in src/main.py for one run.
+* The script will initialize models and Pinecone. If the Pinecone index is empty, it will automatically load, process, embed, and upload the data from data/restaurants.json (this may take some time). Note: If you update data/restaurants.json, you need to manually trigger a re-population by setting FORCE_REPOPULATE = True in src/main.py for one run.
 
 Once initialization is complete, the chat prompt You:  will appear.
 

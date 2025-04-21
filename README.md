@@ -139,15 +139,15 @@ python src/main.py
 
 ## Challenges Faced
 
-LLM Reasoning: The chosen LLM (flan-t5-base) sometimes struggles with multi-step reasoning (e.g., comparisons across restaurants), complex instructions, or strictly adhering to negative constraints (e.g., not answering when context is insufficient, avoiding hallucinations) even with detailed prompting.
+* **LLM Reasoning:** The chosen LLM (flan-t5-base) sometimes struggles with multi-step reasoning (e.g., comparisons across restaurants), complex instructions, or strictly adhering to negative constraints (e.g., not answering when context is insufficient, avoiding hallucinations) even with detailed prompting.
 
-Retrieval Accuracy: Ensuring the retrieval step fetches the most relevant chunks (e.g., general info vs. specific menu item) based on the user query semantics can be challenging. Tuning top_k and experimenting with different embedding models (all-MiniLM-L6-v2, multi-qa-MiniLM-L6-cos-v1) yielded mixed results.
+* **Retrieval Accuracy:** Ensuring the retrieval step fetches the most relevant chunks (e.g., general info vs. specific menu item) based on the user query semantics can be challenging. Tuning top_k and experimenting with different embedding models (all-MiniLM-L6-v2, multi-qa-MiniLM-L6-cos-v1) yielded mixed results.
 
-Context Length Limit: Combining instructions, retrieved context (especially with top_k > 3), and the query can exceed the LLM's maximum input token limit (e.g., 512 for T5-base), requiring careful management of top_k or context chunk size.
+* **Context Length Limit:** Combining instructions, retrieved context (especially with top_k > 3), and the query can exceed the LLM's maximum input token limit (e.g., 512 for T5-base), requiring careful management of top_k or context chunk size.
 
-Prompt Engineering: Iteratively refining the prompt to elicit the desired behavior from the LLM while keeping it concise was a significant effort.
+* **Prompt Engineering:** Iteratively refining the prompt to elicit the desired behavior from the LLM while keeping it concise was a significant effort.
 
-Data Scraping: (Add challenges you faced during scraping, e.g., dynamic content, varying website structures, anti-scraping measures)
+* **Data Scraping:** (Add challenges you faced during scraping, e.g., dynamic content, varying website structures, anti-scraping measures)
 
 ## Future Improvements
 

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.zomato.com/hyderabad/jewel-of-nizam-the-golkonda-hotel-masab-tank",
+    "title": "Jewel of Nizam - The Golkonda Hotel, Masab Tank, Hyderabad | Zomato",
+    "name": "Jewel of Nizam - The Golkonda Hotel",
+    "id": "jewel-of-nizam-the-golkonda-hotel",
+    "address": {
+        "street": "10-1-124, The Golkonda Hotel, Banjara Hills, Masab Tank, Hyderabad",
+        "locality": "Masab Tank, Hyderabad",
+        "region": "Hyderabad",
+        "postalCode": "500028",
+        "country": "India"
+    },
+    "rating": {
+        "value": "4.0",
+        "count": 1585
+    },
+    "cuisine": "Hyderabadi, Mughlai",
+    "price_range": "₹5,000 for two people (approx.)",
+    "telephone": "+914066110101, +919133331123, +914066110130",
+    "menu_file": "menus/jewel-of-nizam-the-golkonda-hotel_menu.json",
+    "html_file": "restaurant_data\\html\\zomato.com_hyderabad_jewel-of-nizam-the-golkonda-hotel-masab-tank.html"
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.zomato.com/hyderabad/lake-district-bar-kitchen-necklace-road/info",
+    "title": "Lake District Bar & Kitchen, Necklace Road, Hyderabad | Zomato",
+    "name": "Lake District Bar & Kitchen",
+    "id": "lake-district-bar-kitchen",
+    "address": {
+        "street": "Hussain Sagar, PV Narasimha Rao Marg, Near Necklace Road, Hyderabad",
+        "locality": "Necklace Road, Hyderabad",
+        "region": "Hyderabad",
+        "postalCode": "500082",
+        "country": "India"
+    },
+    "rating": {
+        "value": "3.9",
+        "count": 837
+    },
+    "cuisine": "North Indian, Chinese, Salad, Biryani, Fast Food, Bar Food, Seafood, Desserts",
+    "price_range": "₹1,300 for two people (approx.) with alcohol",
+    "telephone": "+918008003779",
+    "menu_file": "menus/lake-district-bar-kitchen_menu.json",
+    "html_file": "restaurant_data\\html\\zomato.com_hyderabad_lake-district-bar-kitchen-necklace-road_info.html"
+}

@@ -1,0 +1,215 @@
+{
+    "restaurant": "So The Sky Kitchen",
+    "notes": "All dishes are free from Monosodium Glutamate (MSG)",
+    "menu": {
+      "North Indian": {
+        "Appetizers & Kebabs": {
+          "Veg": [
+            {
+              "name": "Masala Papad",
+              "description": "Papads topped with spicy mix of onion, tomatoes, green chilly - sprinkled with chaat masala.",
+              "price_inr": 195
+            },
+            {
+              "name": "Peanut Masala",
+              "description": "Roasted peanut and chickpea tossed with kachumber salad.",
+              "price_inr": 275
+            },
+            {
+              "name": "Bhatti Da Paneer",
+              "description": "Juicy chunks of paneer marinated in a special spice mix and cooked in tandoor. Served with mint chutney.",
+              "price_inr": 510
+            },
+            {
+              "name": "Paneer De Tikki",
+              "description": "Paneer cubes marinated with herbs and spices, cooked with onion and capsicum in tandoor.",
+              "price_inr": 485
+            },
+            {
+              "name": "Tandoori Broccoli",
+              "description": "Broccoli florets in cottage cheese, milk cake, pimentos, ginger and thyme, grilled in tandoor.",
+              "price_inr": 510
+            },
+            {
+              "name": "Hara Kebab",
+              "description": "Spinach kebabs filled with cashew nuts, raisins, pine nuts and cheese. Griddle fried.",
+              "price_inr": 450
+            },
+            {
+              "name": "Tandoori Mushroom",
+              "description": "Mushrooms stuffed with cottage cheese, potatoes & pistachios, grilled in tandoor.",
+              "price_inr": 460
+            },
+            {
+              "name": "Dahi Ke Kebab",
+              "description": "Awadhi-style kebabs made with hung yoghurt, Bengal gram, bread crumbs, yellow chillies & coriander.",
+              "price_inr": 510
+            },
+            {
+              "name": "Tamatar Tulsi Shorba",
+              "description": "Tomato shorba with basil, tempered with cumin, served with basil butter rusk.",
+              "price_inr": 240
+            },
+            {
+              "name": "Bhatti Ke Aloo",
+              "description": "Char-grilled baby potatoes, pressed, tossed in spices and pudina chutney.",
+              "price_inr": 685
+            }
+          ],
+          "Non-Veg": [
+            {
+              "name": "Murgh Malai Kebab",
+              "description": "Chicken cubes marinated in cream, cumin, black pepper, cheddar and coriander, grilled in tandoor.",
+              "price_inr": 560
+            },
+            {
+              "name": "Murgh K Sooley",
+              "description": "Boneless chicken marinated in cumin and coriander, smoked and grilled in tandoor.",
+              "price_inr": 560
+            },
+            {
+              "name": "Bhatti Da Murga",
+              "description": "Chicken legs marinated with spices and hung curd, cooked in tandoor and finished on open-fire grill.",
+              "price_inr": 580
+            },
+            {
+              "name": "Tandoori Jheenga",
+              "description": "Prawns marinated in lemon juice, ajwain, and cardamom, grilled in tandoor.",
+              "price_inr": 645
+            },
+            {
+              "name": "Galouti",
+              "description": "Ultra-soft kebabs originally created for nobles who preferred not to chew.",
+              "price_inr": 685
+            },
+            {
+              "name": "Masaledar Boti Kebab",
+              "description": "Tender mutton marinated in spiced hung curd, cooked in tandoor and tossed with house spices.",
+              "price_inr": 695
+            }
+          ]
+        },
+        "Curries": {
+          "Veg": [
+            {
+              "name": "Paneer Makhani",
+              "description": "Paneer cubes in creamy tomato gravy with fennel and fenugreek.",
+              "price_inr": 510
+            },
+            {
+              "name": "Paneer Labaabdaar",
+              "description": "Paneer tikka in tomato-based gravy with cheese, garlic, cream and kasoori methi.",
+              "price_inr": 545
+            },
+            {
+              "name": "Kadhai Paneer",
+              "description": "Paneer batons with bell peppers, tomatoes, coriander seeds and black pepper in creamy tomato gravy.",
+              "price_inr": 520
+            },
+            {
+              "name": "Sarson Ka Saag",
+              "description": "Mustard leaf dish cooked with radish leaves, spinach, bathua, ginger and gramflour.",
+              "price_inr": 560
+            },
+            {
+              "name": "Paalak Lahsuni",
+              "description": "Creamy spinach cooked with cumin, garlic and whole red chilli.",
+              "price_inr": 450
+            },
+            {
+              "name": "Daal Saat Nizaam",
+              "description": "Hyderabadi seven-lentil delicacy tempered with seven different ingredients.",
+              "price_inr": 530
+            },
+            {
+              "name": "Dum Aloo",
+              "description": "Soft kebab-style potato dish created for leisure-loving nobles.",
+              "price_inr": 435
+            },
+            {
+              "name": "Subzi Panchmael",
+              "description": "Seasonal vegetables in rich yoghurt sauce with cardamom, ginger, and fennel seeds.",
+              "price_inr": 535
+            },
+            {
+              "name": "Daal Makhani",
+              "description": "Whole urad lentils simmered overnight, finished with tomato puree, cream and ghee.",
+              "price_inr": 545
+            }
+          ],
+          "Non-Veg": [
+            {
+              "name": "Murgh Makhani",
+              "description": "Butter chicken in smooth tomato gravy with kasoori methi.",
+              "price_inr": null
+            },
+            {
+              "name": "Murgh Tikka Labaabdaar",
+              "description": "Chicken tikka in tomato cheese garlic gravy, finished with cream and kasoori methi.",
+              "price_inr": null
+            },
+            {
+              "name": "SO Speciality Mutton",
+              "description": "Kid shanks cooked in their own marrow with cardamom-tinged juices.",
+              "price_inr": null
+            },
+            {
+              "name": "Kadhai Chicken",
+              "description": "Chicken tikka with bell peppers and tomatoes in creamy tomato gravy.",
+              "price_inr": null
+            },
+            {
+              "name": "Home Style Chicken Curry",
+              "description": "Simple household-style chicken curry.",
+              "price_inr": null
+            },
+            {
+              "name": "Kadhai Jhinga",
+              "description": "Spicy shrimp stir-fried with pomegranate, green peppercorns, and cardamom masala.",
+              "price_inr": null
+            },
+            {
+              "name": "Mutton Boti Curry",
+              "description": "Mutton curry (description not specified).",
+              "price_inr": null
+            }
+          ]
+        },
+        "Biryani": [
+          {
+            "name": "Nizami Tarkari Biryani",
+            "description": "Aromatic rice and vegetables cooked on dum in Awadhi style in sealed terracotta pots.",
+            "price_inr": 555
+          },
+          {
+            "name": "Dum Ki Biryani Mutton",
+            "description": "Lamb and saffron-flavored rice cooked on dum in sealed terracotta pots.",
+            "price_inr": 655
+          },
+          {
+            "name": "Dum Ki Biryani Chicken",
+            "description": "Chicken and saffron-flavored rice cooked on dum in sealed terracotta pots.",
+            "price_inr": 610
+          }
+        ],
+        "Rice": [
+          {
+            "name": "Raita",
+            "description": "Choice of bottle gourd, boondi, cucumber, or tomato & onion.",
+            "price_inr": 210
+          },
+          {
+            "name": "Steamed Rice",
+            "description": "",
+            "price_inr": 210
+          },
+          {
+            "name": "Zeera Rice",
+            "description": "",
+            "price_inr": 275
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.zomato.com/hyderabad/barbeque-spice-abids/info",
+    "title": "Barbeque Spice, Abids, Hyderabad | Zomato",
+    "name": "Barbeque Spice",
+    "id": "barbeque-spice",
+    "address": {
+        "street": "Ground Floor, La Stella Building, Gun Foundry, Abids, Hyderabad",
+        "locality": "Abids, Hyderabad",
+        "region": "Hyderabad",
+        "postalCode": "",
+        "country": "India"
+    },
+    "rating": {
+        "value": "4.1",
+        "count": 1588
+    },
+    "cuisine": "BBQ, North Indian, Desserts, Chinese",
+    "price_range": "₹1,900 for two people (approx.)",
+    "telephone": "+919121912156",
+    "menu_file": "menus/barbeque-spice_menu.json",
+    "html_file": "restaurant_data\\html\\zomato.com_hyderabad_barbeque-spice-abids_info.html"
+}

@@ -1,0 +1,144 @@
+{
+    "restaurant": "The Dining Room – Park Hyatt",
+    "menu": {
+      "Salads": [
+        {
+          "name": "Caesar Salad",
+          "description": "Romaine lettuce, bacon, chicken, caesar dressing, parmesan, poached egg, anchovies",
+          "price_inr": 1045
+        },
+        {
+          "name": "Watermelon & Feta Cheese",
+          "description": "Compressed melon, arugula, feta, mint, roasted almonds",
+          "price_inr": 845
+        },
+        {
+          "name": "Mezze Platter",
+          "description": "Hummus, baba ghanoush, tabbouleh, tzatziki, marinated olives, pita",
+          "price_inr": 1145
+        },
+        {
+          "name": "Signature TDR Salad",
+          "description": "Asparagus, zucchini, avocado, artichoke, prawns, parmesan chips, tomato confit, hazelnut vinaigrette",
+          "price_inr": 845
+        },
+        {
+          "name": "Quinoa Salad",
+          "description": "Iceberg lettuce, parsley, red onions, quinoa, pomegranate, lemon dressing",
+          "price_inr": 845
+        }
+      ],
+      "Soups": [
+        {
+          "name": "Mushroom Soup",
+          "description": "Sourdough, garlic, crostini",
+          "price_inr": 545
+        },
+        {
+          "name": "Mediterranean Seafood Soup",
+          "description": "Prawn, mussels, calamari, fresh chilies, tomato, saffron",
+          "price_inr": 645
+        },
+        {
+          "name": "Zafrani Badami Murgh Shorba",
+          "description": "Almond & chicken broth, saffron, coriander",
+          "price_inr": 595
+        },
+        {
+          "name": "Miriyalu Charu",
+          "description": "Spicy tomato broth with black pepper, curry leaves (Andhra style)",
+          "price_inr": 545
+        }
+      ],
+      "Sandwiches & Burgers": [
+        {
+          "name": "Vegetarian Club Sandwich",
+          "description": "Coleslaw, lettuce, onion, cucumber, tomato, white cheddar",
+          "price_inr": 995
+        },
+        {
+          "name": "Caprese Focaccia",
+          "description": "Buffalo mozzarella, tomato, arugula, basil pesto",
+          "price_inr": 995
+        },
+        {
+          "name": "Avocado Toast",
+          "description": "Avocado, tomatoes, pumpkin seeds, microgreens, sourdough",
+          "price_inr": 845
+        },
+        {
+          "name": "High Protein Veg Burger",
+          "description": "Lentil patty, creamy spinach & corn, grated cheese, sesame bun",
+          "price_inr": 1145
+        },
+        {
+          "name": "TDR Club Sandwich",
+          "description": "Roast chicken, fried egg, bacon, lettuce, tomato, cucumber, cheddar",
+          "price_inr": 1045
+        },
+        {
+          "name": "Grilled Chicken Burger",
+          "description": "Chicken patty, onions, tomato, cucumber, garlic sauce, fried egg, cheddar",
+          "price_inr": 1195
+        },
+        {
+          "name": "Pulled Lamb Burger",
+          "description": "Pulled lamb, onion, lettuce, tomato, tzatziki",
+          "price_inr": 1295
+        }
+      ],
+      "Wraps": [
+        {
+          "name": "Paneer Tikka Khurchan",
+          "description": "Cottage cheese, onion, bell peppers, mint chutney",
+          "price_inr": 1045
+        },
+        {
+          "name": "Chicken Tikka Khurchan",
+          "description": "Chicken tikka, egg, onion, bell peppers, mint chutney",
+          "price_inr": 1195
+        },
+        {
+          "name": "Chicken Shawarma",
+          "description": "Grilled chicken, Arabic bread, pickled vegetables, garlic yogurt dip",
+          "price_inr": 1195
+        }
+      ],
+      "Make Your Own Pasta": {
+        "pasta_types": ["Penne", "Spaghetti", "Fusilli"],
+        "sauces": [
+          {
+            "name": "Arrabiata",
+            "description": "Tomato, Chili Flakes",
+            "price_inr": 1145
+          },
+          {
+            "name": "Cheese Sauce",
+            "description": "Grated & Cream Cheese",
+            "price_inr": 1145
+          },
+          {
+            "name": "Aglio Olio",
+            "description": "Garlic, Olive Oil, Chili",
+            "price_inr": 1145
+          },
+          {
+            "name": "Pesto",
+            "description": "Garlic, Basil, Pine Nuts, Parmesan",
+            "price_inr": 1145
+          },
+          {
+            "name": "Bolognese",
+            "description": "Lamb, Tomato Concasse",
+            "price_inr": 1245
+          },
+          {
+            "name": "Carbonara",
+            "description": "Pork, Egg Yolk, Parmesan",
+            "price_inr": 1245
+          }
+        ]
+      }
+    }
+  }
+  

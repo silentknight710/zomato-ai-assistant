@@ -1,0 +1,107 @@
+[
+    {
+        "url": "https://www.zomato.com/hyderabad/jewel-of-nizam-the-golkonda-hotel-masab-tank",
+        "title": "Jewel of Nizam - The Golkonda Hotel, Masab Tank, Hyderabad | Zomato",
+        "name": "Jewel of Nizam - The Golkonda Hotel",
+        "id": "jewel-of-nizam-the-golkonda-hotel",
+        "address": {
+            "street": "10-1-124, The Golkonda Hotel, Banjara Hills, Masab Tank, Hyderabad",
+            "locality": "Masab Tank, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500028",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.0",
+            "count": 1585
+        },
+        "cuisine": "Hyderabadi, Mughlai",
+        "price_range": "₹5,000 for two people (approx.)",
+        "telephone": "+914066110101, +919133331123, +914066110130",
+        "menu": []
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/lake-district-bar-kitchen-necklace-road/info",
+        "title": "Lake District Bar & Kitchen, Necklace Road, Hyderabad | Zomato",
+        "name": "Lake District Bar & Kitchen",
+        "id": "lake-district-bar-kitchen",
+        "address": {
+            "street": "Hussain Sagar, PV Narasimha Rao Marg, Near Necklace Road, Hyderabad",
+            "locality": "Necklace Road, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500082",
+            "country": "India"
+        },
+        "rating": {
+            "value": "3.9",
+            "count": 837
+        },
+        "cuisine": "North Indian, Chinese, Salad, Biryani, Fast Food, Bar Food, Seafood, Desserts",
+        "price_range": "₹1,300 for two people (approx.) with alcohol",
+        "telephone": "+918008003779",
+        "menu": []
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/barbeque-spice-abids/info",
+        "title": "Barbeque Spice, Abids, Hyderabad | Zomato",
+        "name": "Barbeque Spice",
+        "id": "barbeque-spice",
+        "address": {
+            "street": "Ground Floor, La Stella Building, Gun Foundry, Abids, Hyderabad",
+            "locality": "Abids, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.1",
+            "count": 1588
+        },
+        "cuisine": "BBQ, North Indian, Desserts, Chinese",
+        "price_range": "₹1,900 for two people (approx.)",
+        "telephone": "+919121912156",
+        "menu": []
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/the-dining-room-park-hyatt-banjara-hills/info",
+        "title": "The Dining Room - Park Hyatt, Banjara Hills, Hyderabad | Zomato",
+        "name": "The Dining Room - Park Hyatt",
+        "id": "the-dining-room-park-hyatt",
+        "address": {
+            "street": "Park Hyatt, Hyderabad Road 2, Banjara Hills, Hyderabad",
+            "locality": "Banjara Hills, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "0",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.1",
+            "count": 1217
+        },
+        "cuisine": "Oriental, North Indian, Mughlai, Italian, Desserts",
+        "price_range": "₹4,000 for two people (approx.)",
+        "telephone": "+914049491203, +917702202517, +917702202599",
+        "menu": []
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/so-the-sky-kitchen-jubilee-hills/info",
+        "title": "So The Sky Kitchen, Jubilee Hills, Hyderabad | Zomato",
+        "name": "So The Sky Kitchen",
+        "id": "so-the-sky-kitchen",
+        "address": {
+            "street": "Door 8-2-293/82, Aryans Building, Jubilee Hills, Hyderabad",
+            "locality": "Jubilee Hills, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500096",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.2",
+            "count": 2883
+        },
+        "cuisine": "North Indian, Chinese, Asian, Mughlai, Fast Food, Beverages",
+        "price_range": "₹1,900 for two people (approx.) with alcohol",
+        "telephone": "+919701367088",
+        "menu": []
+    }
+]

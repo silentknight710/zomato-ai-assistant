@@ -1,0 +1,57 @@
+{
+    "restaurant": "Lake District Bar & Kitchen",
+    "menu": {
+      "Main Course": [
+        {
+          "name": "Lazooni Hung LiBa",
+          "price": 495,
+          "description": "Garlic & red chili marinated cottage cheese chunks tossed with red chili sauce, oriental spices & vegetables, served with garlic fried rice"
+        },
+        {
+          "name": "Bon Robb",
+          "price": 495,
+          "description": "Honey-glazed chicken tossed with chef’s special chili garlic sauce served with garlic fried rice"
+        }
+      ],
+      "Risotto": [
+        {
+          "name": "Risotto ai Funghi – Add Chicken",
+          "price": [425, 475],
+          "description": "Creamy mushroom risotto finished with cheese and truffle oil (Optional Chicken)"
+        },
+        {
+          "name": "Seafood Red Hot Risotto",
+          "price": 575,
+          "description": "Fiery seafood risotto with prawns, fish and calamari in a red chili sauce base"
+        }
+      ],
+      "Pastas": [
+        {
+          "name": "Three Cheese Mac and Cheese",
+          "price": 395,
+          "description": "Classic mac and cheese loaded with cheddar, mozzarella & parmesan"
+        },
+        {
+          "name": "Spaghetti Aglio e Olio – Veg/Chicken",
+          "price": [395, 445],
+          "description": "Garlic tossed spaghetti with olive oil, chili flakes, and optional chicken"
+        },
+        {
+          "name": "Penne Basil Pesto – Veg/Chicken",
+          "price": [395, 445],
+          "description": "Creamy pesto pasta with basil, pine nuts & choice of veggies or chicken"
+        },
+        {
+          "name": "Tagliatelle Alfredo – Veg/Chicken",
+          "price": [395, 445],
+          "description": "Classic white sauce pasta with fettuccine, parmesan & cream, optionally with chicken"
+        },
+        {
+          "name": "Pasta Arrabbiata – Veg/Chicken – Penne/Spaghetti",
+          "price": [395, 445],
+          "description": "Spicy tomato sauce pasta with your choice of penne or spaghetti, and optional chicken"
+        }
+      ]
+    }
+  }
+  

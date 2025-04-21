@@ -1,0 +1,38 @@
+{
+    "restaurant": "The Golkonda Hotel",
+    "menu": {
+      "The Golkonda Biryani Experience": [
+        {
+          "name": "Non-Vegetarian with Prawns",
+          "type": "Non-Vegetarian",
+          "price": 1050.00,
+          "description": "Auburn with layers of dry fruits & rice, flavored forever—the ultimate prawn experience with the Nawabi Dum Biryani! Entices the eloquence of royal grandeur. Gently cooked with saffron & spice, it satisfies every seafood lover’s appetite."
+        },
+        {
+          "name": "Non-Vegetarian",
+          "type": "Non-Vegetarian",
+          "price": 950.00,
+          "description": "A supreme Nawabi Dum Biryani handcrafted to recreate authentic flavors. Steamed to perfection with aromatic long grain basmati rice, richly marinated meat, saffron & spices. Paired with Mirchi Ka Salan & Raita. The secret lies in the nuances of its blend."
+        },
+        {
+          "name": "Vegetarian",
+          "type": "Vegetarian",
+          "price": 850.00,
+          "description": "Inspired by the traditional Nawabi recipe of Hyderabad. Basmati rice cooked on dum with saffron, select spices & vegetables, served with Mirchi Ka Salan & Raita."
+        }
+      ],
+      "Dumaar-e-Mahal": [
+        {
+          "name": "Dumaar-e-Mahal Non-Vegetarian",
+          "type": "Non-Vegetarian",
+          "price": 1250.00
+        },
+        {
+          "name": "Dumaar-e-Mahal Vegetarian",
+          "type": "Vegetarian",
+          "price": 1050.00
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.zomato.com/hyderabad/the-dining-room-park-hyatt-banjara-hills/info",
+    "title": "The Dining Room - Park Hyatt, Banjara Hills, Hyderabad | Zomato",
+    "name": "The Dining Room - Park Hyatt",
+    "id": "the-dining-room-park-hyatt",
+    "address": {
+        "street": "Park Hyatt, Hyderabad Road 2, Banjara Hills, Hyderabad",
+        "locality": "Banjara Hills, Hyderabad",
+        "region": "Hyderabad",
+        "postalCode": "0",
+        "country": "India"
+    },
+    "rating": {
+        "value": "4.1",
+        "count": 1217
+    },
+    "cuisine": "Oriental, North Indian, Mughlai, Italian, Desserts",
+    "price_range": "₹4,000 for two people (approx.)",
+    "telephone": "+914049491203, +917702202517, +917702202599",
+    "menu_file": "menus/the-dining-room-park-hyatt_menu.json",
+    "html_file": "restaurant_data\\html\\zomato.com_hyderabad_the-dining-room-park-hyatt-banjara-hills_info.html"
+}

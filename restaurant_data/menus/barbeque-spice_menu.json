@@ -1,0 +1,69 @@
+{
+    "restaurant": "Barbeque Spice",
+    "menu": {
+      "Stone Starters": {
+        "Non Veg": [
+          "Chicken Seekh Kebab",
+          "Andhra Fish Fry",
+          "Chili Garlic Prawns",
+          "Mutton Seekh Kebab"
+        ],
+        "Veg": [
+          "Haryali Paneer Tikka",
+          "Achari Pineapple",
+          "Peri Peri Paneer",
+          "Spicy Veg Kebab"
+        ]
+      },
+      "General Starters": {
+        "Non Veg": [
+          "Tandoori Chicken Tikka",
+          "Ajwain Fish Tikka",
+          "Pepper Prawns",
+          "Murgh Malai Tikka"
+        ],
+        "Veg": [
+          "Stuffed Garlic Mushrooms",
+          "Malai Paneer Tikka",
+          "Crispy Corn",
+          "Spicy Soya Seekh",
+          "American Corn Tikki",
+          "Crispy Veg Wontons",
+          "Chilicorn Pineapple"
+        ]
+      },
+      "Soups": {
+        "Non Veg": [
+          "Mutton Shorba"
+        ],
+        "Veg": [
+          "Sweet Corn Soup"
+        ]
+      },
+      "Breads": [
+        "Tandoori Roti",
+        "Naan",
+        "Butter Naan",
+        "Missi Roti",
+        "Double Naan"
+      ],
+      "Salads": {
+        "Non Veg": [
+          "Indian Egg Salad",
+          "Honey Chicken Salad",
+          "Mutton Salad",
+          "Chili Seafood Salad"
+        ],
+        "Veg": [
+          "Garden Green Salad",
+          "Sprouts Salad",
+          "Fruit Chat",
+          "Chef's Spicy Salad"
+        ]
+      },
+      "Cold Stone - Frozone": [
+        "Burnt Scotch Ice Cream"
+      ]
+    }
+  }
+  

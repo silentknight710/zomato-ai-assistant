@@ -1,0 +1,22 @@
+{
+    "url": "https://www.zomato.com/hyderabad/so-the-sky-kitchen-jubilee-hills/info",
+    "title": "So The Sky Kitchen, Jubilee Hills, Hyderabad | Zomato",
+    "name": "So The Sky Kitchen",
+    "id": "so-the-sky-kitchen",
+    "address": {
+        "street": "Door 8-2-293/82, Aryans Building, Jubilee Hills, Hyderabad",
+        "locality": "Jubilee Hills, Hyderabad",
+        "region": "Hyderabad",
+        "postalCode": "500096",
+        "country": "India"
+    },
+    "rating": {
+        "value": "4.2",
+        "count": 2883
+    },
+    "cuisine": "North Indian, Chinese, Asian, Mughlai, Fast Food, Beverages",
+    "price_range": "₹1,900 for two people (approx.) with alcohol",
+    "telephone": "+919701367088",
+    "menu_file": "menus/so-the-sky-kitchen_menu.json",
+    "html_file": "restaurant_data\\html\\zomato.com_hyderabad_so-the-sky-kitchen-jubilee-hills_info.html"
+}

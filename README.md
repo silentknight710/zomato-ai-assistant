@@ -101,9 +101,9 @@ python src/main.py
 
 * The script will initialize models and Pinecone. If the Pinecone index is empty, it will automatically load, process, embed, and upload the data from data/restaurants.json (this may take some time). Note: If you update data/restaurants.json, you need to manually trigger a re-population by setting FORCE_REPOPULATE = True in src/main.py for one run.
 
-Once initialization is complete, the chat prompt You:  will appear.
+* Once initialization is complete, the chat prompt You:  will appear.
 
-Ask questions based on the data in your restaurants.json file. Examples:
+* Ask questions based on the data in your restaurants.json file. Examples:
 
 "What cuisine does Jewel of Nizam serve?"
 
@@ -115,27 +115,27 @@ Ask questions based on the data in your restaurants.json file. Examples:
 
 "Describe the Caesar Salad at The Dining Room - Park Hyatt."
 
-Type quit, exit, or bye to end the session.
+* Type quit, exit, or bye to end the session.
 
 ## Implementation Details
 
-Architecture: Standard RAG pipeline: User Query -> Embedding -> Vector DB Similarity Search (Retrieval) -> Context Augmentation -> LLM Prompting -> Answer Generation.
+* **Architecture:** Standard RAG pipeline: User Query -> Embedding -> Vector DB Similarity Search (Retrieval) -> Context Augmentation -> LLM Prompting -> Answer Generation.
 
-Embedding Model: all-MiniLM-L6-v2 (from sentence-transformers) is used by default (see src/config.py). Chosen for its balance of performance and size for free-tier usage.
+* **Embedding Model:** all-MiniLM-L6-v2 (from sentence-transformers) is used by default (see src/config.py). Chosen for its balance of performance and size for free-tier usage.
 
-Generator Model: google/flan-t5-base (from Hugging Face transformers) is used by default. Chosen as a capable instruction-tuned model available under Apache 2.0 license and generally usable within free compute tiers.
+* **Generator Model:** google/flan-t5-base (from Hugging Face transformers) is used by default. Chosen as a capable instruction-tuned model available under Apache 2.0 license and generally usable within free compute tiers.
 
-Vector Database: Pinecone serverless index is used for storing and querying embeddings efficiently.
+* **Vector Database:** Pinecone serverless index is used for storing and querying embeddings efficiently.
 
-Data Processing: Data from restaurants.json is parsed, and two types of text chunks are created for embedding (see src/rag_pipeline.py):
+* **Data Processing:** Data from restaurants.json is parsed, and two types of text chunks are created for embedding (see src/rag_pipeline.py):
 
-General restaurant information chunks (including name, address, rating, cuisine, price range, contact).
+* General restaurant information chunks (including name, address, rating, cuisine, price range, contact).
 
-Individual menu item chunks (including restaurant name, category, item name, description, price, type where available).
+* Individual menu item chunks (including restaurant name, category, item name, description, price, type where available).
 
-Prompt Engineering: A structured prompt with explicit instructions is used to guide the LLM (flan-t5-base) to answer based only on the retrieved context and handle cases where information is missing (see src/generator_utils.py).
+* **Prompt Engineering:** A structured prompt with explicit instructions is used to guide the LLM (flan-t5-base) to answer based only on the retrieved context and handle cases where information is missing (see src/generator_utils.py).
 
-Logging: Python's logging module is used instead of print for status messages and errors, allowing for cleaner console output during chat interaction (controlled via src/main.py). Console output level is set to WARNING by default during chat.
+* **Logging:** Python's logging module is used instead of print for status messages and errors, allowing for cleaner console output during chat interaction (controlled via src/main.py). Console output level is set to WARNING by default during chat.
 
 ## Challenges Faced
 
@@ -149,20 +149,21 @@ Prompt Engineering: Iteratively refining the prompt to elicit the desired behavi
 
 Data Scraping: (Add challenges you faced during scraping, e.g., dynamic content, varying website structures, anti-scraping measures)
 
-Future Improvements
-More Powerful LLM: Experiment with larger models (flan-t5-large) or different architectures (e.g., Mistral/Zephyr variants) if compute resources allow, potentially improving reasoning and instruction following.
+## Future Improvements
 
-Code-Based Comparison: Implement specific Python logic to handle comparison queries (e.g., "cheapest", "compare") by retrieving structured data for relevant restaurants and performing the comparison in code, rather than relying solely on the LLM.
+* **More Powerful LLM:** Experiment with larger models (flan-t5-large) or different architectures (e.g., Mistral/Zephyr variants) if compute resources allow, potentially improving reasoning and instruction following.
 
-Advanced Retrieval: Explore techniques like query expansion, re-ranking retrieved results, or using metadata filters during Pinecone queries to improve retrieval relevance.
+* **Code-Based Comparison:** Implement specific Python logic to handle comparison queries (e.g., "cheapest", "compare") by retrieving structured data for relevant restaurants and performing the comparison in code, rather than relying solely on the LLM.
 
-Conversational Memory: Implement conversation history to allow follow-up questions.
+* **Advanced Retrieval:** Explore techniques like query expansion, re-ranking retrieved results, or using metadata filters during Pinecone queries to improve retrieval relevance.
 
-Web Interface: Build a user-friendly web interface using Streamlit or Gradio instead of the command-line interface.
+* **Conversational Memory:** Implement conversation history to allow follow-up questions.
 
-Robust Scraping: Enhance scraper.py with more sophisticated parsing, better error handling, and potentially rotating user agents/proxies if needed for scraping more websites reliably.
+* **Web Interface:** Build a user-friendly web interface using Streamlit or Gradio instead of the command-line interface.
 
-Metadata Filtering: Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search results for more targeted retrieval.
+* **Robust Scraping:** Enhance scraper.py with more sophisticated parsing, better error handling, and potentially rotating user agents/proxies if needed for scraping more websites reliably.
+
+* **Metadata Filtering:** Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search results for more targeted retrieval.
 
 ## Demo Video
 [Link to your 3-minute demo video showcasing the implementation and sample interactions]

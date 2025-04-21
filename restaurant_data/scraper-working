@@ -1,0 +1,92 @@
+
+
+---
+
+How the Web Scraper Works
+
+The `RestaurantScraper` class is a Python-based utility for scraping restaurant metadata from Zomato restaurant pages. It collects details such as name, address, cuisine, rating, and prepares for menu integration. The data is saved in structured JSON files for each restaurant and also combined into a master file.
+
+---
+
+Input
+
+- A list of Zomato restaurant URLs is provided in the `main()` function.
+
+---
+
+Workflow
+
+1. **Initialization**  
+   - Creates output directories:
+     - `restaurant_data/html/`: for saving raw HTML pages.
+     - `restaurant_data/menus/`: for storing restaurant menus.
+   - Sets user-agent headers to mimic a browser for reliability.
+
+2. **Fetching HTML**  
+   - Sends an HTTP GET request to each restaurant URL.
+   - Saves the response HTML to a local `.html` file using a unique filename.
+   - Waits a random number of seconds between requests to avoid detection or rate limiting.
+
+3. **Extracting Restaurant Info**  
+   - Parses the saved HTML using BeautifulSoup.
+   - Extracts data from JSON-LD (`<script type="application/ld+json">`) embedded in the page.
+   - Retrieves structured details such as:
+     - Restaurant name
+     - Slugified restaurant ID
+     - Address fields
+     - Aggregate rating and review count
+     - Cuisine types
+     - Price range
+     - Phone number
+   - Constructs a JSON-compatible Python dictionary with this information.
+
+4. **Menu Integration**  
+   - Sets the expected path of the restaurant’s menu as `menus/<restaurant_id>_menu.json`.
+   - Assumes menus are saved separately and will be merged later.
+
+5. **Saving Restaurant Data**  
+   - Each restaurant's structured data is saved as a JSON file named `<restaurant_id>.json` inside `restaurant_data/`.
+
+6. **Combined Output**  
+   - All scraped restaurants are appended to a list.
+   - This list is saved as a single `total.json` file in `restaurant_data/` containing data for all restaurants.
+
+---
+
+**Output Structure Example**
+
+Each restaurant JSON file includes:
+
+```
+{
+  "name": "Lake District Bar & Kitchen",
+  "id": "lake-district-bar-kitchen",
+  "url": "...",
+  "html_file": "...",
+  "menu_file": "menus/lake-district-bar-kitchen_menu.json",
+  "address": {
+    "street": "...",
+    "locality": "...",
+    "region": null,
+    "postalCode": null,
+    "country": "India"
+  },
+  "cuisine": ["North Indian", "Continental"],
+  "price_range": "₹₹₹",
+  "telephone": "...",
+  "rating": {
+    "value": "4.5",
+    "count": 120
+  }
+}
+```
+
+---
+
+Design Highlights
+
+- Uses structured JSON-LD format to ensure reliable parsing.
+- Saves both raw HTML and structured JSON for reproducibility and debugging.
+- Employs slugified IDs for consistent file naming and linking.
+- Designed to be extended easily with menu parsing or additional metadata.
+

@@ -2,33 +2,33 @@
 
 ## Overview
 
-This project implements a Retrieval-Augmented Generation (RAG) chatbot designed to answer user questions about restaurants based on scraped data. It fulfills the requirements of the Zomato Generative AI Internship Assignment.
+This project implements a **Retrieval-Augmented Generation (RAG)** chatbot designed to answer user questions about restaurants based on scraped data. It fulfills the requirements of the **Zomato Generative AI Internship Assignment**.
 
-The system scrapes restaurant information (including menus, ratings, location, etc.), processes this data, stores it in a vector database (Pinecone), and uses a Large Language Model (LLM) from Hugging Face to generate answers based on retrieved context relevant to the user's query.
+The system scrapes restaurant information (including menus, ratings, location, etc.), processes this data, stores it in a vector database (**Pinecone**), and uses a **Large Language Model (LLM)** from **Hugging Face** to generate answers based on retrieved context relevant to the user's query.
 
 ## Features
 
 * Answers questions about specific restaurant details (when available in the data):
-    * Cuisine types served
-    * Approximate price range for two people
-    * Address / Location
-    * Contact number
-    * Ratings and review counts
+    * *Cuisine types served*
+    * *Approximate price range for two people*
+    * *Address / Location*
+    * *Contact number*
+    * *Ratings and review counts*
 * Answers questions about specific menu items (when available in the data):
-    * Price
-    * Description
-    * Category
+    * *Price*
+    * *Description*
+    * *Category*
 * Handles basic greetings.
-* Uses Pinecone for efficient vector storage and retrieval.
+* Uses **Pinecone** for efficient vector storage and retrieval.
 * Utilizes Hugging Face `transformers` and `sentence-transformers` for embedding and generation using freely available models.
 * Includes configurable logging for cleaner console output during interaction.
 
 **Current Limitations:**
 
-* **Comparative Questions:** The chatbot struggles to reliably answer questions requiring comparison across multiple restaurants (e.g., "which restaurant is cheapest?", "compare menus"). This is due to limitations in retrieving all necessary information within the context window and the reasoning capabilities of the LLM used.
-* **Retrieval Specificity:** Occasionally fails to retrieve the most relevant information for very specific menu items if they aren't semantically close enough to the query in the embedding space or aren't within the top retrieved results (`top_k`).
-* **Data Dependency:** The quality and scope of answers are entirely dependent on the data scraped and present in the `data/restaurants.json` file. Missing information in the JSON will result in the chatbot being unable to answer related questions.
-* **Hallucination/Accuracy:** While prompts are designed to minimize this, the LLM may occasionally misinterpret context or generate slightly inaccurate information.
+* ***Comparative Questions:*** The chatbot struggles to reliably answer questions requiring comparison across multiple restaurants (e.g., "which restaurant is cheapest?", "compare menus"). This is due to limitations in retrieving all necessary information within the context window and the reasoning capabilities of the LLM used.
+* ***Retrieval Specificity:*** Occasionally fails to retrieve the most relevant information for very specific menu items if they aren't semantically close enough to the query in the embedding space or aren't within the top retrieved results (`top_k`).
+* ***Data Dependency:*** The quality and scope of answers are entirely dependent on the data scraped and present in the `data/restaurants.json` file. Missing information in the JSON will result in the chatbot being unable to answer related questions.
+* ***Hallucination/Accuracy:*** While prompts are designed to minimize this, the LLM may occasionally misinterpret context or generate slightly inaccurate information.
 
 ## Project Structure
 
@@ -56,18 +56,18 @@ Follow these steps to set up and run the project locally.
 
 **1. Prerequisites:**
 * Python 3.8+
-* `pip` (Python package installer)
-* Git (for cloning the repository)
-* A Pinecone account and API key (Free tier available) - [Sign up here](https://www.pinecone.io/)
+* `pip` *(Python package installer)*
+* Git *(for cloning the repository)*
+* A Pinecone account and API key *(Free tier available)* - [Sign up here](https://www.pinecone.io/)
 
 **2. Clone the Repository:**
-```bash
+bash
 git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
 cd [Your-Repo-Name]
 
-(Replace placeholders with your actual username and repository name)
+(Replace placeholders [Your-GitHub-Username] and [Your-Repo-Name] with your actual details)
 
-3. Create a Virtual Environment (Recommended):
+**3. Create a Virtual Environment (Recommended):**
 
 python -m venv venv
 # Activate the environment
@@ -111,15 +111,25 @@ Ensure the scraped data is saved as restaurants.json inside the data/ folder. Th
 The script (src/pinecone_utils.py) will attempt to create the Pinecone index specified in src/config.py (default: zomato-restaurants) if it doesn't exist, using the serverless specification defined in the config. Ensure your Pinecone account/API key has permissions to do this.
 
 Usage
+1. Activate Environment & Configure:
+
 Make sure your virtual environment is activated (if used) and the .env file is configured.
 
+2. Navigate to Project Directory:
+
 Navigate to the project's root directory in your terminal.
+
+3. Run the Application:
 
 Run the main application script:
 
 python src/main.py
 
+4. Initialization & Data Loading:
+
 The script will initialize models and Pinecone. If the Pinecone index is empty, it will automatically load, process, embed, and upload the data from data/restaurants.json (this may take some time). Note: If you update data/restaurants.json, you need to manually trigger a re-population by setting FORCE_REPOPULATE = True in src/main.py for one run.
+
+5. Interact with Chatbot:
 
 Once initialization is complete, the chat prompt You:  will appear.
 
@@ -134,6 +144,8 @@ Ask questions based on the data in your restaurants.json file. Examples:
 "What is the price of the Vegetarian Biryani at Jewel of Nizam?"
 
 "Describe the Caesar Salad at The Dining Room - Park Hyatt."
+
+6. Exit:
 
 Type quit, exit, or bye to end the session.
 
@@ -180,9 +192,4 @@ Web Interface: Build a user-friendly web interface using Streamlit or Gradio ins
 
 Robust Scraping: Enhance scraper.py with more sophisticated parsing, better error handling, and potentially rotating user agents/proxies if needed for scraping more websites reliably.
 
-Metadata Filtering: Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search results for more targeted retrieval.
-
-Demo Video
-[Link to your 3-minute demo video showcasing the implementation and sample interactions]
-
-*(Make sure to upload your video and replace 
+Metadata Filtering: Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search

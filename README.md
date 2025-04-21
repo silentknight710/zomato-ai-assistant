@@ -50,12 +50,12 @@ cd [Your-Repo-Name]
 3. Create a Virtual Environment (Recommended):
 
 python -m venv venv
- Activate the environment
- On Windows (cmd):
- venv\Scripts\activate
- On Windows (PowerShell):
- .\venv\Scripts\Activate.ps1
- On macOS/Linux:
+ *Activate the environment
+ *On Windows (cmd):
+ *venv\Scripts\activate
+ *On Windows (PowerShell):
+ *.\venv\Scripts\Activate.ps1
+ *On macOS/Linux:
  source venv/bin/activate
 
 4. Install Dependencies:

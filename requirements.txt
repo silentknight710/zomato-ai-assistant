@@ -1,39 +1,9 @@
-# File: requirements.txt
-# -----------------------
-# Dependencies for the Zomato RAG Chatbot project.
-# It is strongly recommended to pin package versions using '=='
-# to ensure reproducibility across different environments.
-#
-# To get your current working versions, run:
-#   pip freeze > current_versions.txt
-# Then copy the relevant package versions from 'current_versions.txt'
-# and replace the '==X.Y.Z' placeholders below.
-# Example: transformers==4.38.2
-# -----------------------
-
-# --- Core AI/ML Libraries ---
-sentence-transformers==X.Y.Z  # For generating text embeddings
-transformers==X.Y.Z          # Foundational library for models (used by sentence-transformers, pipelines)
-torch==X.Y.Z                 # Deep learning framework (PyTorch) - Ensure version compatibility!
-# torchvision==X.Y.Z         # Often installed with torch, include if used implicitly/explicitly
-# torchaudio==X.Y.Z          # Often installed with torch, include if used implicitly/explicitly
-
-# --- Vector Database ---
-pinecone==X.Y.Z              # Pinecone client library (the newer package name)
-
-# --- Hugging Face Hub Interaction (Optional but recommended) ---
-huggingface_hub==X.Y.Z       # For downloading models, potentially logging in
-
-# --- Utilities ---
-python-dotenv==X.Y.Z         # For loading environment variables from .env file
-
-# --- Web Scraping (Required for Assignment - Add your choices) ---
-# Choose libraries based on your scraper implementation in scraper.py
-# requests==X.Y.Z              # For making HTTP requests
-# beautifulsoup4==X.Y.Z        # For parsing HTML
-# lxml==X.Y.Z                  # Often used as a parser with BeautifulSoup
-# Or, if using Scrapy framework:
-# scrapy==X.Y.Z
-
-# Add any other specific libraries your project uses below
-# e.g., pandas==X.Y.Z (if you used it for data handling)
+# Core RAG and LLM libraries
+pinecone-client
+sentence-transformers
+transformers
+torch
+# Hugging Face Hub interaction (optional but good)
+huggingface_hub
+# Other utilities (optional, e.g., for .env files)
+python-dotenv

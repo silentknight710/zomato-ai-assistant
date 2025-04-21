@@ -42,8 +42,8 @@ Follow these steps to set up and run the project locally.
 
 **2. Clone the Repository:**
 bash
-git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
-cd [Your-Repo-Name]
+git clone [https://github.com/silentknight710.git
+cd [zomato-ai-assistant]
 
 (Replace placeholders with your actual username and repository name)
 
@@ -70,13 +70,13 @@ Create a file named .env in the project's root directory (alongside requirements
 
 Add your Pinecone API key to the .env file:
 
-# File: .env
-PINECONE_API_KEY="YOUR_PINECONE_API_KEY"
-# Optional: Specify cloud/region if different from defaults in config.py
-# PINECONE_CLOUD="aws"
-# PINECONE_REGION="us-east-1"
-# Optional: Add Hugging Face token if needed for specific models
-# HUGGINGFACE_TOKEN="YOUR_HF_TOKEN"
+* File: .env
+* PINECONE_API_KEY="YOUR_PINECONE_API_KEY"
+* Optional: Specify cloud/region if different from defaults in config.py
+* PINECONE_CLOUD="aws"
+* PINECONE_REGION="us-east-1"
+* Optional: Add Hugging Face token if needed for specific models
+* HUGGINGFACE_TOKEN="YOUR_HF_TOKEN"
 
 Important: Ensure .env is listed in your .gitignore file to avoid committing secrets.
 

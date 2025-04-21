@@ -47,7 +47,7 @@ cd [zomato-ai-assistant]
 
 (Replace placeholders with your actual username and repository name)
 
-3. Create a Virtual Environment (Recommended):
+**3. Create a Virtual Environment (Recommended):**
 
 python -m venv venv
  * Activate the environment

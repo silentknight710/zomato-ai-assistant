@@ -164,8 +164,3 @@ python src/main.py
 * **Robust Scraping:** Enhance scraper.py with more sophisticated parsing, better error handling, and potentially rotating user agents/proxies if needed for scraping more websites reliably.
 
 * **Metadata Filtering:** Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search results for more targeted retrieval.
-
-## Demo Video
-[Link to your 3-minute demo video showcasing the implementation and sample interactions]
-
-*(Make sure to upload your video and replace 

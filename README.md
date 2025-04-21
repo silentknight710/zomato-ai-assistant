@@ -117,7 +117,8 @@ Ask questions based on the data in your restaurants.json file. Examples:
 
 Type quit, exit, or bye to end the session.
 
-Implementation Details
+## Implementation Details
+
 Architecture: Standard RAG pipeline: User Query -> Embedding -> Vector DB Similarity Search (Retrieval) -> Context Augmentation -> LLM Prompting -> Answer Generation.
 
 Embedding Model: all-MiniLM-L6-v2 (from sentence-transformers) is used by default (see src/config.py). Chosen for its balance of performance and size for free-tier usage.
@@ -136,7 +137,8 @@ Prompt Engineering: A structured prompt with explicit instructions is used to gu
 
 Logging: Python's logging module is used instead of print for status messages and errors, allowing for cleaner console output during chat interaction (controlled via src/main.py). Console output level is set to WARNING by default during chat.
 
-Challenges Faced
+## Challenges Faced
+
 LLM Reasoning: The chosen LLM (flan-t5-base) sometimes struggles with multi-step reasoning (e.g., comparisons across restaurants), complex instructions, or strictly adhering to negative constraints (e.g., not answering when context is insufficient, avoiding hallucinations) even with detailed prompting.
 
 Retrieval Accuracy: Ensuring the retrieval step fetches the most relevant chunks (e.g., general info vs. specific menu item) based on the user query semantics can be challenging. Tuning top_k and experimenting with different embedding models (all-MiniLM-L6-v2, multi-qa-MiniLM-L6-cos-v1) yielded mixed results.
@@ -162,7 +164,7 @@ Robust Scraping: Enhance scraper.py with more sophisticated parsing, better erro
 
 Metadata Filtering: Utilize the structured metadata (e.g., price, cuisine, category) stored in Pinecone to filter search results for more targeted retrieval.
 
-Demo Video
+## Demo Video
 [Link to your 3-minute demo video showcasing the implementation and sample interactions]
 
 *(Make sure to upload your video and replace 

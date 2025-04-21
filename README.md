@@ -58,13 +58,13 @@ python -m venv venv
  * On macOS/Linux:
  source venv/bin/activate
 
-4. Install Dependencies:
+**4. Install Dependencies:**
 
 pip install -r requirements.txt
 
 (Ensure your requirements.txt file has pinned versions based on your working environment using pip freeze)
 
-5. Configure Environment Variables:
+**5. Configure Environment Variables:**
 
 Create a file named .env in the project's root directory (alongside requirements.txt).
 
@@ -80,13 +80,13 @@ Add your Pinecone API key to the .env file:
 
 Important: Ensure .env is listed in your .gitignore file to avoid committing secrets.
 
-6. Prepare Data:
+**6. Prepare Data:**
 
 Run your web scraper (src/scraper.py - Note: you need to implement the scraping logic first as per the assignment) or manually place your scraped data file.
 
 Ensure the scraped data is saved as restaurants.json inside the data/ folder. The format should match the structure expected by src/rag_pipeline.py (the detailed format with menu items).
 
-7. Pinecone Index:
+**7. Pinecone Index:**
 
 The script (src/pinecone_utils.py) will attempt to create the Pinecone index specified in src/config.py (default: zomato-restaurants) if it doesn't exist, using the serverless specification defined in the config. Ensure your Pinecone account/API key has permissions to do this.
 

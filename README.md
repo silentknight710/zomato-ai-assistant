@@ -30,26 +30,6 @@ The system scrapes restaurant information (including menus, ratings, location, e
 * **Data Dependency:** The quality and scope of answers are entirely dependent on the data scraped and present in the `data/restaurants.json` file. Missing information in the JSON will result in the chatbot being unable to answer related questions.
 * **Hallucination/Accuracy:** While prompts are designed to minimize this, the LLM may occasionally misinterpret context or generate slightly inaccurate information.
 
-## Project Structure
-
-
-zomato_chatbot/
-├── data/
-│   └── restaurants.json       # Scraped restaurant data (MUST BE PROVIDED)
-├── src/                     # Source code
-│   ├── init.py
-│   ├── config.py            # Configuration (API keys, models, paths)
-│   ├── embedding_utils.py   # Embedding model loading & generation
-│   ├── generator_utils.py   # LLM loading, prompt creation, answer generation
-│   ├── main.py              # Main application entry point, chat loop
-│   ├── pinecone_utils.py    # Pinecone connection, upsert, query, etc.
-│   └── rag_pipeline.py      # RAG orchestration, data loading/chunking
-├── .env                     # Store API keys here (add to .gitignore!)
-├── .gitignore               # Specifies intentionally untracked files
-├── requirements.txt         # Python dependencies
-└── README.md                # This file
-
-
 ## Setup Instructions
 
 Follow these steps to set up and run the project locally.
@@ -61,7 +41,7 @@ Follow these steps to set up and run the project locally.
 * A Pinecone account and API key (Free tier available) - [Sign up here](https://www.pinecone.io/)
 
 **2. Clone the Repository:**
-```bash
+bash
 git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
 cd [Your-Repo-Name]
 

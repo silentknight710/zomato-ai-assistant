@@ -1,0 +1,625 @@
+[
+    {
+        "url": "https://www.zomato.com/hyderabad/jewel-of-nizam-the-golkonda-hotel-masab-tank",
+        "title": "Jewel of Nizam - The Golkonda Hotel, Masab Tank, Hyderabad | Zomato",
+        "name": "Jewel of Nizam - The Golkonda Hotel",
+        "id": "jewel-of-nizam-the-golkonda-hotel",
+        "address": {
+            "street": "10-1-124, The Golkonda Hotel, Banjara Hills, Masab Tank, Hyderabad",
+            "locality": "Masab Tank, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500028",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.0",
+            "count": 1585
+        },
+        "cuisine": "Hyderabadi, Mughlai",
+        "price_range": "₹5,000 for two people (approx.)",
+        "telephone": "+914066110101, +919133331123, +914066110130",
+        "menu": [{
+            "restaurant": "The Golkonda Hotel",
+            "menu": {
+              "The Golkonda Biryani Experience": [
+                {
+                  "name": "Non-Vegetarian with Prawns",
+                  "type": "Non-Vegetarian",
+                  "price": 1050.00,
+                  "description": "Auburn with layers of dry fruits & rice, flavored forever—the ultimate prawn experience with the Nawabi Dum Biryani! Entices the eloquence of royal grandeur. Gently cooked with saffron & spice, it satisfies every seafood lover’s appetite."
+                },
+                {
+                  "name": "Non-Vegetarian",
+                  "type": "Non-Vegetarian",
+                  "price": 950.00,
+                  "description": "A supreme Nawabi Dum Biryani handcrafted to recreate authentic flavors. Steamed to perfection with aromatic long grain basmati rice, richly marinated meat, saffron & spices. Paired with Mirchi Ka Salan & Raita. The secret lies in the nuances of its blend."
+                },
+                {
+                  "name": "Vegetarian",
+                  "type": "Vegetarian",
+                  "price": 850.00,
+                  "description": "Inspired by the traditional Nawabi recipe of Hyderabad. Basmati rice cooked on dum with saffron, select spices & vegetables, served with Mirchi Ka Salan & Raita."
+                }
+              ],
+              "Dumaar-e-Mahal": [
+                {
+                  "name": "Dumaar-e-Mahal Non-Vegetarian",
+                  "type": "Non-Vegetarian",
+                  "price": 1250.00
+                },
+                {
+                  "name": "Dumaar-e-Mahal Vegetarian",
+                  "type": "Vegetarian",
+                  "price": 1050.00
+                }
+              ]
+            }
+          }
+          ]
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/lake-district-bar-kitchen-necklace-road/info",
+        "title": "Lake District Bar & Kitchen, Necklace Road, Hyderabad | Zomato",
+        "name": "Lake District Bar & Kitchen",
+        "id": "lake-district-bar-kitchen",
+        "address": {
+            "street": "Hussain Sagar, PV Narasimha Rao Marg, Near Necklace Road, Hyderabad",
+            "locality": "Necklace Road, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500082",
+            "country": "India"
+        },
+        "rating": {
+            "value": "3.9",
+            "count": 837
+        },
+        "cuisine": "North Indian, Chinese, Salad, Biryani, Fast Food, Bar Food, Seafood, Desserts",
+        "price_range": "₹1,300 for two people (approx.) with alcohol",
+        "telephone": "+918008003779",
+        "menu": [{
+            "restaurant": "Lake District Bar & Kitchen",
+            "menu": {
+              "Main Course": [
+                {
+                  "name": "Lazooni Hung LiBa",
+                  "price": 495,
+                  "description": "Garlic & red chili marinated cottage cheese chunks tossed with red chili sauce, oriental spices & vegetables, served with garlic fried rice"
+                },
+                {
+                  "name": "Bon Robb",
+                  "price": 495,
+                  "description": "Honey-glazed chicken tossed with chef’s special chili garlic sauce served with garlic fried rice"
+                }
+              ],
+              "Risotto": [
+                {
+                  "name": "Risotto ai Funghi – Add Chicken",
+                  "price": [425, 475],
+                  "description": "Creamy mushroom risotto finished with cheese and truffle oil (Optional Chicken)"
+                },
+                {
+                  "name": "Seafood Red Hot Risotto",
+                  "price": 575,
+                  "description": "Fiery seafood risotto with prawns, fish and calamari in a red chili sauce base"
+                }
+              ],
+              "Pastas": [
+                {
+                  "name": "Three Cheese Mac and Cheese",
+                  "price": 395,
+                  "description": "Classic mac and cheese loaded with cheddar, mozzarella & parmesan"
+                },
+                {
+                  "name": "Spaghetti Aglio e Olio – Veg/Chicken",
+                  "price": [395, 445],
+                  "description": "Garlic tossed spaghetti with olive oil, chili flakes, and optional chicken"
+                },
+                {
+                  "name": "Penne Basil Pesto – Veg/Chicken",
+                  "price": [395, 445],
+                  "description": "Creamy pesto pasta with basil, pine nuts & choice of veggies or chicken"
+                },
+                {
+                  "name": "Tagliatelle Alfredo – Veg/Chicken",
+                  "price": [395, 445],
+                  "description": "Classic white sauce pasta with fettuccine, parmesan & cream, optionally with chicken"
+                },
+                {
+                  "name": "Pasta Arrabbiata – Veg/Chicken – Penne/Spaghetti",
+                  "price": [395, 445],
+                  "description": "Spicy tomato sauce pasta with your choice of penne or spaghetti, and optional chicken"
+                }
+              ]
+            }
+          }
+          ]
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/barbeque-spice-abids/info",
+        "title": "Barbeque Spice, Abids, Hyderabad | Zomato",
+        "name": "Barbeque Spice",
+        "id": "barbeque-spice",
+        "address": {
+            "street": "Ground Floor, La Stella Building, Gun Foundry, Abids, Hyderabad",
+            "locality": "Abids, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.1",
+            "count": 1588
+        },
+        "cuisine": "BBQ, North Indian, Desserts, Chinese",
+        "price_range": "₹1,900 for two people (approx.)",
+        "telephone": "+919121912156",
+        "menu": [{
+            "restaurant": "Barbeque Spice",
+            "menu": {
+              "Stone Starters": {
+                "Non Veg": [
+                  "Chicken Seekh Kebab",
+                  "Andhra Fish Fry",
+                  "Chili Garlic Prawns",
+                  "Mutton Seekh Kebab"
+                ],
+                "Veg": [
+                  "Haryali Paneer Tikka",
+                  "Achari Pineapple",
+                  "Peri Peri Paneer",
+                  "Spicy Veg Kebab"
+                ]
+              },
+              "General Starters": {
+                "Non Veg": [
+                  "Tandoori Chicken Tikka",
+                  "Ajwain Fish Tikka",
+                  "Pepper Prawns",
+                  "Murgh Malai Tikka"
+                ],
+                "Veg": [
+                  "Stuffed Garlic Mushrooms",
+                  "Malai Paneer Tikka",
+                  "Crispy Corn",
+                  "Spicy Soya Seekh",
+                  "American Corn Tikki",
+                  "Crispy Veg Wontons",
+                  "Chilicorn Pineapple"
+                ]
+              },
+              "Soups": {
+                "Non Veg": [
+                  "Mutton Shorba"
+                ],
+                "Veg": [
+                  "Sweet Corn Soup"
+                ]
+              },
+              "Breads": [
+                "Tandoori Roti",
+                "Naan",
+                "Butter Naan",
+                "Missi Roti",
+                "Double Naan"
+              ],
+              "Salads": {
+                "Non Veg": [
+                  "Indian Egg Salad",
+                  "Honey Chicken Salad",
+                  "Mutton Salad",
+                  "Chili Seafood Salad"
+                ],
+                "Veg": [
+                  "Garden Green Salad",
+                  "Sprouts Salad",
+                  "Fruit Chat",
+                  "Chef's Spicy Salad"
+                ]
+              },
+              "Cold Stone - Frozone": [
+                "Burnt Scotch Ice Cream"
+              ]
+            }
+          }
+          ]
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/the-dining-room-park-hyatt-banjara-hills/info",
+        "title": "The Dining Room - Park Hyatt, Banjara Hills, Hyderabad | Zomato",
+        "name": "The Dining Room - Park Hyatt",
+        "id": "the-dining-room-park-hyatt",
+        "address": {
+            "street": "Park Hyatt, Hyderabad Road 2, Banjara Hills, Hyderabad",
+            "locality": "Banjara Hills, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "0",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.1",
+            "count": 1217
+        },
+        "cuisine": "Oriental, North Indian, Mughlai, Italian, Desserts",
+        "price_range": "₹4,000 for two people (approx.)",
+        "telephone": "+914049491203, +917702202517, +917702202599",
+        "menu": [{
+            "restaurant": "The Dining Room – Park Hyatt",
+            "menu": {
+              "Salads": [
+                {
+                  "name": "Caesar Salad",
+                  "description": "Romaine lettuce, bacon, chicken, caesar dressing, parmesan, poached egg, anchovies",
+                  "price_inr": 1045
+                },
+                {
+                  "name": "Watermelon & Feta Cheese",
+                  "description": "Compressed melon, arugula, feta, mint, roasted almonds",
+                  "price_inr": 845
+                },
+                {
+                  "name": "Mezze Platter",
+                  "description": "Hummus, baba ghanoush, tabbouleh, tzatziki, marinated olives, pita",
+                  "price_inr": 1145
+                },
+                {
+                  "name": "Signature TDR Salad",
+                  "description": "Asparagus, zucchini, avocado, artichoke, prawns, parmesan chips, tomato confit, hazelnut vinaigrette",
+                  "price_inr": 845
+                },
+                {
+                  "name": "Quinoa Salad",
+                  "description": "Iceberg lettuce, parsley, red onions, quinoa, pomegranate, lemon dressing",
+                  "price_inr": 845
+                }
+              ],
+              "Soups": [
+                {
+                  "name": "Mushroom Soup",
+                  "description": "Sourdough, garlic, crostini",
+                  "price_inr": 545
+                },
+                {
+                  "name": "Mediterranean Seafood Soup",
+                  "description": "Prawn, mussels, calamari, fresh chilies, tomato, saffron",
+                  "price_inr": 645
+                },
+                {
+                  "name": "Zafrani Badami Murgh Shorba",
+                  "description": "Almond & chicken broth, saffron, coriander",
+                  "price_inr": 595
+                },
+                {
+                  "name": "Miriyalu Charu",
+                  "description": "Spicy tomato broth with black pepper, curry leaves (Andhra style)",
+                  "price_inr": 545
+                }
+              ],
+              "Sandwiches & Burgers": [
+                {
+                  "name": "Vegetarian Club Sandwich",
+                  "description": "Coleslaw, lettuce, onion, cucumber, tomato, white cheddar",
+                  "price_inr": 995
+                },
+                {
+                  "name": "Caprese Focaccia",
+                  "description": "Buffalo mozzarella, tomato, arugula, basil pesto",
+                  "price_inr": 995
+                },
+                {
+                  "name": "Avocado Toast",
+                  "description": "Avocado, tomatoes, pumpkin seeds, microgreens, sourdough",
+                  "price_inr": 845
+                },
+                {
+                  "name": "High Protein Veg Burger",
+                  "description": "Lentil patty, creamy spinach & corn, grated cheese, sesame bun",
+                  "price_inr": 1145
+                },
+                {
+                  "name": "TDR Club Sandwich",
+                  "description": "Roast chicken, fried egg, bacon, lettuce, tomato, cucumber, cheddar",
+                  "price_inr": 1045
+                },
+                {
+                  "name": "Grilled Chicken Burger",
+                  "description": "Chicken patty, onions, tomato, cucumber, garlic sauce, fried egg, cheddar",
+                  "price_inr": 1195
+                },
+                {
+                  "name": "Pulled Lamb Burger",
+                  "description": "Pulled lamb, onion, lettuce, tomato, tzatziki",
+                  "price_inr": 1295
+                }
+              ],
+              "Wraps": [
+                {
+                  "name": "Paneer Tikka Khurchan",
+                  "description": "Cottage cheese, onion, bell peppers, mint chutney",
+                  "price_inr": 1045
+                },
+                {
+                  "name": "Chicken Tikka Khurchan",
+                  "description": "Chicken tikka, egg, onion, bell peppers, mint chutney",
+                  "price_inr": 1195
+                },
+                {
+                  "name": "Chicken Shawarma",
+                  "description": "Grilled chicken, Arabic bread, pickled vegetables, garlic yogurt dip",
+                  "price_inr": 1195
+                }
+              ],
+              "Make Your Own Pasta": {
+                "pasta_types": ["Penne", "Spaghetti", "Fusilli"],
+                "sauces": [
+                  {
+                    "name": "Arrabiata",
+                    "description": "Tomato, Chili Flakes",
+                    "price_inr": 1145
+                  },
+                  {
+                    "name": "Cheese Sauce",
+                    "description": "Grated & Cream Cheese",
+                    "price_inr": 1145
+                  },
+                  {
+                    "name": "Aglio Olio",
+                    "description": "Garlic, Olive Oil, Chili",
+                    "price_inr": 1145
+                  },
+                  {
+                    "name": "Pesto",
+                    "description": "Garlic, Basil, Pine Nuts, Parmesan",
+                    "price_inr": 1145
+                  },
+                  {
+                    "name": "Bolognese",
+                    "description": "Lamb, Tomato Concasse",
+                    "price_inr": 1245
+                  },
+                  {
+                    "name": "Carbonara",
+                    "description": "Pork, Egg Yolk, Parmesan",
+                    "price_inr": 1245
+                  }
+                ]
+              }
+            }
+          }
+          ]
+    },
+    {
+        "url": "https://www.zomato.com/hyderabad/so-the-sky-kitchen-jubilee-hills/info",
+        "title": "So The Sky Kitchen, Jubilee Hills, Hyderabad | Zomato",
+        "name": "So The Sky Kitchen",
+        "id": "so-the-sky-kitchen",
+        "address": {
+            "street": "Door 8-2-293/82, Aryans Building, Jubilee Hills, Hyderabad",
+            "locality": "Jubilee Hills, Hyderabad",
+            "region": "Hyderabad",
+            "postalCode": "500096",
+            "country": "India"
+        },
+        "rating": {
+            "value": "4.2",
+            "count": 2883
+        },
+        "cuisine": "North Indian, Chinese, Asian, Mughlai, Fast Food, Beverages",
+        "price_range": "₹1,900 for two people (approx.) with alcohol",
+        "telephone": "+919701367088",
+        "menu": [{
+            "restaurant": "So The Sky Kitchen",
+            "notes": "All dishes are free from Monosodium Glutamate (MSG)",
+            "menu": {
+              "North Indian": {
+                "Appetizers & Kebabs": {
+                  "Veg": [
+                    {
+                      "name": "Masala Papad",
+                      "description": "Papads topped with spicy mix of onion, tomatoes, green chilly - sprinkled with chaat masala.",
+                      "price_inr": 195
+                    },
+                    {
+                      "name": "Peanut Masala",
+                      "description": "Roasted peanut and chickpea tossed with kachumber salad.",
+                      "price_inr": 275
+                    },
+                    {
+                      "name": "Bhatti Da Paneer",
+                      "description": "Juicy chunks of paneer marinated in a special spice mix and cooked in tandoor. Served with mint chutney.",
+                      "price_inr": 510
+                    },
+                    {
+                      "name": "Paneer De Tikki",
+                      "description": "Paneer cubes marinated with herbs and spices, cooked with onion and capsicum in tandoor.",
+                      "price_inr": 485
+                    },
+                    {
+                      "name": "Tandoori Broccoli",
+                      "description": "Broccoli florets in cottage cheese, milk cake, pimentos, ginger and thyme, grilled in tandoor.",
+                      "price_inr": 510
+                    },
+                    {
+                      "name": "Hara Kebab",
+                      "description": "Spinach kebabs filled with cashew nuts, raisins, pine nuts and cheese. Griddle fried.",
+                      "price_inr": 450
+                    },
+                    {
+                      "name": "Tandoori Mushroom",
+                      "description": "Mushrooms stuffed with cottage cheese, potatoes & pistachios, grilled in tandoor.",
+                      "price_inr": 460
+                    },
+                    {
+                      "name": "Dahi Ke Kebab",
+                      "description": "Awadhi-style kebabs made with hung yoghurt, Bengal gram, bread crumbs, yellow chillies & coriander.",
+                      "price_inr": 510
+                    },
+                    {
+                      "name": "Tamatar Tulsi Shorba",
+                      "description": "Tomato shorba with basil, tempered with cumin, served with basil butter rusk.",
+                      "price_inr": 240
+                    },
+                    {
+                      "name": "Bhatti Ke Aloo",
+                      "description": "Char-grilled baby potatoes, pressed, tossed in spices and pudina chutney.",
+                      "price_inr": 685
+                    }
+                  ],
+                  "Non-Veg": [
+                    {
+                      "name": "Murgh Malai Kebab",
+                      "description": "Chicken cubes marinated in cream, cumin, black pepper, cheddar and coriander, grilled in tandoor.",
+                      "price_inr": 560
+                    },
+                    {
+                      "name": "Murgh K Sooley",
+                      "description": "Boneless chicken marinated in cumin and coriander, smoked and grilled in tandoor.",
+                      "price_inr": 560
+                    },
+                    {
+                      "name": "Bhatti Da Murga",
+                      "description": "Chicken legs marinated with spices and hung curd, cooked in tandoor and finished on open-fire grill.",
+                      "price_inr": 580
+                    },
+                    {
+                      "name": "Tandoori Jheenga",
+                      "description": "Prawns marinated in lemon juice, ajwain, and cardamom, grilled in tandoor.",
+                      "price_inr": 645
+                    },
+                    {
+                      "name": "Galouti",
+                      "description": "Ultra-soft kebabs originally created for nobles who preferred not to chew.",
+                      "price_inr": 685
+                    },
+                    {
+                      "name": "Masaledar Boti Kebab",
+                      "description": "Tender mutton marinated in spiced hung curd, cooked in tandoor and tossed with house spices.",
+                      "price_inr": 695
+                    }
+                  ]
+                },
+                "Curries": {
+                  "Veg": [
+                    {
+                      "name": "Paneer Makhani",
+                      "description": "Paneer cubes in creamy tomato gravy with fennel and fenugreek.",
+                      "price_inr": 510
+                    },
+                    {
+                      "name": "Paneer Labaabdaar",
+                      "description": "Paneer tikka in tomato-based gravy with cheese, garlic, cream and kasoori methi.",
+                      "price_inr": 545
+                    },
+                    {
+                      "name": "Kadhai Paneer",
+                      "description": "Paneer batons with bell peppers, tomatoes, coriander seeds and black pepper in creamy tomato gravy.",
+                      "price_inr": 520
+                    },
+                    {
+                      "name": "Sarson Ka Saag",
+                      "description": "Mustard leaf dish cooked with radish leaves, spinach, bathua, ginger and gramflour.",
+                      "price_inr": 560
+                    },
+                    {
+                      "name": "Paalak Lahsuni",
+                      "description": "Creamy spinach cooked with cumin, garlic and whole red chilli.",
+                      "price_inr": 450
+                    },
+                    {
+                      "name": "Daal Saat Nizaam",
+                      "description": "Hyderabadi seven-lentil delicacy tempered with seven different ingredients.",
+                      "price_inr": 530
+                    },
+                    {
+                      "name": "Dum Aloo",
+                      "description": "Soft kebab-style potato dish created for leisure-loving nobles.",
+                      "price_inr": 435
+                    },
+                    {
+                      "name": "Subzi Panchmael",
+                      "description": "Seasonal vegetables in rich yoghurt sauce with cardamom, ginger, and fennel seeds.",
+                      "price_inr": 535
+                    },
+                    {
+                      "name": "Daal Makhani",
+                      "description": "Whole urad lentils simmered overnight, finished with tomato puree, cream and ghee.",
+                      "price_inr": 545
+                    }
+                  ],
+                  "Non-Veg": [
+                    {
+                      "name": "Murgh Makhani",
+                      "description": "Butter chicken in smooth tomato gravy with kasoori methi.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "Murgh Tikka Labaabdaar",
+                      "description": "Chicken tikka in tomato cheese garlic gravy, finished with cream and kasoori methi.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "SO Speciality Mutton",
+                      "description": "Kid shanks cooked in their own marrow with cardamom-tinged juices.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "Kadhai Chicken",
+                      "description": "Chicken tikka with bell peppers and tomatoes in creamy tomato gravy.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "Home Style Chicken Curry",
+                      "description": "Simple household-style chicken curry.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "Kadhai Jhinga",
+                      "description": "Spicy shrimp stir-fried with pomegranate, green peppercorns, and cardamom masala.",
+                      "price_inr": null
+                    },
+                    {
+                      "name": "Mutton Boti Curry",
+                      "description": "Mutton curry (description not specified).",
+                      "price_inr": null
+                    }
+                  ]
+                },
+                "Biryani": [
+                  {
+                    "name": "Nizami Tarkari Biryani",
+                    "description": "Aromatic rice and vegetables cooked on dum in Awadhi style in sealed terracotta pots.",
+                    "price_inr": 555
+                  },
+                  {
+                    "name": "Dum Ki Biryani Mutton",
+                    "description": "Lamb and saffron-flavored rice cooked on dum in sealed terracotta pots.",
+                    "price_inr": 655
+                  },
+                  {
+                    "name": "Dum Ki Biryani Chicken",
+                    "description": "Chicken and saffron-flavored rice cooked on dum in sealed terracotta pots.",
+                    "price_inr": 610
+                  }
+                ],
+                "Rice": [
+                  {
+                    "name": "Raita",
+                    "description": "Choice of bottle gourd, boondi, cucumber, or tomato & onion.",
+                    "price_inr": 210
+                  },
+                  {
+                    "name": "Steamed Rice",
+                    "description": "",
+                    "price_inr": 210
+                  },
+                  {
+                    "name": "Zeera Rice",
+                    "description": "",
+                    "price_inr": 275
+                  }
+                ]
+              }
+            }
+          }
+          ]
+    }
+]

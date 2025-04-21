@@ -90,7 +90,7 @@ Important: Ensure .env is listed in your .gitignore file to avoid committing sec
 
 The script (src/pinecone_utils.py) will attempt to create the Pinecone index specified in src/config.py (default: zomato-restaurants) if it doesn't exist, using the serverless specification defined in the config. Ensure your Pinecone account/API key has permissions to do this.
 
-**Usage**
+## Usage
 * Make sure your virtual environment is activated (if used) and the .env file is configured.
 
 * Navigate to the project's root directory in your terminal.

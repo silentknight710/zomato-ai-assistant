@@ -1,3 +1,4 @@
+# Xyton dev journey synthetic remediation for Finding fd79283a-f41c-5a07-86d0-27dba7e90027.
 # src/config.py
 """
 Configuration settings for the RAG Chatbot.
